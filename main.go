@@ -8,8 +8,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Rabit MQ Easy demo!")
-	log.Println(" Rabit MQ Easy demo!")
+
+	fmt.Println("Rabbit MQ Easy demo!")
+	log.Println(" Rabbit MQ Easy demo!")
 
 	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
 	if err != nil {
